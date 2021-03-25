@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Yusei+Magic&display=swap');
+body,html{
+    overflow-x: hidden;
+}
+.background-home{
+    background: url("../images/style 3.png") no-repeat top center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.background-over{
+    background:url("../images/Group 43.png") no-repeat ;
+    background-position: 10% 50%;
+}
+.custom-word-photo:hover{
+    color: #F98169;
+}
+.descripiton-content:hover{
+    color: #F98169;
+}
+.logo{
+    font-size: 36px;
+    color: #452268;
+    opacity: 0.87;
+    font-weight: 300;
+    margin-top: 0.45em;
+    margin-left: 3em;
+}
+
+.logo:hover{
+    color: #0A4065;
+}
+
+.nav-items{
+    margin-left: 126px;
+    margin-top: 1.5em;
+}
+
+.home-slide:hover{
+
+}
+.home-slide-content:hover{
+    color: black!important;
+}
+.button-extra:hover{
+    background-color: white!important;
+    color: #F98169!important;
+}
+.button-extra-content:hover{
+    background-color: white!important;
+    color: #F98169!important;
+
+}
+.custom-circle:hover{
+    background-color: white;
+    color: #F98169;
+}
+.custom-circle:hover .circle-inside{
+    font-weight: 600;
+    color: #F98169;
+}
+
+.btn-custom:hover{
+    color: #F98169!important;
+    background-color: white!important;
+}
+
+.nav-item{
+    margin: auto;
+    padding: 10px;
+    color: #ABADAE;
+    color: 16px;
+    font-weight: 500;
+    font-family: Roboto,sans-serif;
+    transition: 0.1s;
+}
+.nav-item:hover{
+    color: #0A4065;
+    font-weight: 600;
+}
+.active{
+    color: #0A4065;
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+    font-family: inherit !important;
+}
+.home-slide{
+    font-size: 50px;
+    color: #255A7E;
+    font-weight: 300;
+}
+.home-slide-content{
+    color: #0C3653;
+    opacity: 0.71;
+}
+.custom-container{
+    margin-left: 6.5em;
+    margin-top: 13em;
+}
+.btn-custom{
+    background-color: #F98169;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white !important;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px rgba(249, 129, 105, 0.15);
+}
+.img-custom{
+    width: 90%;
+}
+.custom-size-story{
+    font-size: 17px;
+    opacity: 0.51;
+    font-family: Roboto, sans-serif;
+    margin-left: 2em;
+}
+.text-dark:hover{
+    color: white!important;
+}
+.custom-circle{
+    border: none;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius:50%;
+    widows: 50px;
+    height: 50px;
+    background-color: #F98169;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 4px;
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
+.custom-margin-order{
+    margin-bottom: 7em;
+}
+p{
+    color: #0C3653;
+}
+.custom-word-photo{
+    font-size: 35px;
+    margin-top: 4.5em;
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+.custom-word-content{
+    color: #8B8E8F;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+}
+.button-extra{
+    background-color: #F98169;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white !important;
+    font-weight: 600;
+    width: 40%;
+    box-shadow: 2px 2px 2px 2px rgba(249, 129, 105, 0.15);
+}
+.background-content{
+    background:url("../images/Line.png") no-repeat ;
+}
+.background-content-extra{
+    background: url("../images/lcz9nxhoslo-brooke-lark.png");
+    background-size: 100%;
+}
+.descripiton-content{
+    font-size: 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-family: 'Yusei Magic', sans-serif;
+    margin-left: 5em;
+
+}
+.paragraph-custom{
+    color: #AEB2B4;
+    margin-left: 10em;
+}
+.button-extra-content{
+    background-color: #F98169;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white !important;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px rgba(249, 129, 105, 0.15);
+}
+.backgorund-test{
+    background: url('../images/zv0lvbep.png') no-repeat;
+    background-size: 100%;
+    padding-bottom: 2em;
+    width: 100%;
+}
+.backgorund-test::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0A4065;
+    opacity: 0.49;
+    border-radius: 15px;
+
+}
+.word-inside{
+    margin-top: 2.5em;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    opacity: 1;
+    font-family:sans-serif;
+    z-index: 50;
+}
+.word-content{
+    margin-top: 0.8em;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+    opacity: 1;
+    font-family:sans-serif;
+    z-index: 500;
+}
+.margin-custom{
+    margin-left: 10em;
+}
+.custom-circle-in{
+    padding-top: 2em;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-align: center;
+    border-radius:50%;
+    padding-left: 20px;
+    padding-right: 0px;
+    border: 3px white solid;
+    z-index: 500;
+}
+.card{
+    border-radius: 15px!important;
+}
+.price{
+    color: #F98169;
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.popular-image{
+
+    background: url('../images/h4wl2hhg.png') no-repeat;
+    background-size: 100%;
+    padding-bottom: 2em;
+    width: 100%;
+}
+.popular-image::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0A4065;
+    opacity: 0.49;
+    border-radius: 15px;
+}
+.custom-photo{
+    width:320px;
+    height:360px;
+    position: relative;
+    background: url("../images/h4wl2hhg.png") no-repeat;
+    background-size: 100%;
+}
+.custom-photo::before{
+    position: absolute;
+    background-color: #0A4065;
+    opacity: 0.46;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    top:0;
+    left: 0;
+    content: '';
+}
+.test-box{
+    margin-top: 10em;margin-left: 9em;margin-right: 5em;
+}
+.custom-margin{
+    margin-right: 8em;
+    margin-left: 8em;
+}
+.social-row{
+    font-size: 1.8em;
+    margin-left: 4.5em;
+    margin-right:8em;
+    color:#0A4065;
+}
+.row-footer{
+    margin-left: 8em;
+    margin-right:8em;border-top: #f3e2e2 1px solid;border-bottom:#f3e2e2 1px solid;
+    padding-bottom: 1em;
+}
+.copy-row{
+    color: #ABADAE;font-size: 16px;margin-top: 5em;margin-left: 8em;margin-right:8em;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 64px;
+    height: 64px;
+    z-index: 9999;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+
+}
+
+.back-to-top:hover{
+    opacity: 0.7;
+}
+.nav-items{}
+.item-social:hover{
+    width: 30px;
+    height: 30px;
+    background-color: #0A4065;
+    border-radius: 50%;
+    font-size: 0.6em;
+    color: #ffffff;
+    padding-top: 0.6%;
+    padding-left: 0.35em;
+}
+
+.nav-item.hvr-underline-from-left:before{
+    background: #0A4065 !important;
+}
+.custom-circle.hvr-bounce-to-right:hover:before{
+    background: white;
+    border-radius: 50%;
+}
+.custom-circle.hvr-bounce-to-right:before{
+    background: white;
+    border-radius: 50%;
+}
+.align-margin{
+   display: none;
+}
+.close-window{
+    display: none;
+}
+.logo-footer{
+    margin-left: 0em;
+
+}
+.nav-items-footer{
+    margin-left: 5em;
+    margin-top: 1.5em!important;
+}
+footer{
+    padding-top: 4em;
+    background: url('../images/eaters-collective-132773-unsplash.png') no-repeat;
+    background-position: 	950% 40%;
+}
+@media (max-width:767px) {
+    .row-footer{
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .nav-items-footer{
+        margin-top: 0em!important;
+        margin-left: 0.5em;
+    }
+    .social-row{
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    .copy-row{
+        margin-left: 1em;
+        margin-right: 0px;
+        margin-top: 2em;
+    }
+    .logo{
+        margin-top: 0.7em;
+        margin-left: 0.5em;
+        display: inline!important;
+    }
+    .nav-items{
+        margin-left: -8em;
+        margin-top: 5em;
+    }
+    .nav-item{
+        font-size: 0.8em;
+    }
+    .custom-container{
+        margin-top: 0em;
+        margin-left: 1em;
+    }
+    .home-slide{
+        font-size: 1.8em;
+    text-align: left;
+        margin-top: 1em;
+    }
+    .custom-size-story{
+        margin-left: 0.5em!important;
+    }
+    .custom-circle{
+        margin-top: 1em;
+        width: 30px;
+        height: 30px;
+        padding: 3px;
+        margin-left: 0.5em;
+    }
+    .circle-inside{
+        font-size: 0.8em;
+        color: white;
+    }
+    .btn-custom{
+        padding: 15px;
+        font-size: 1em;
+    }
+    .img-custom{
+        margin-top: 0em;
+        width: 100%!important;
+    }
+    .background-content-extra{
+        margin-left: 0px;
+    }
+    .custom-word-photo{
+        margin-top: 0px;
+    }
+    .button-extra{
+        padding-top: 15px;
+        padding-right: 40%;
+        padding-left: 10px;
+        font-size: 0.8em;
+        margin-top: 0px;
+    }
+    .descripiton-content{
+        margin-left: 0px!important;
+    }
+    .descripiton-content{
+        margin-top: 1.5em;
+        margin-left: 0px;
+    }
+    .mt-5{
+        margin-top: 1em!important;
+    }
+    .paragraph-custom{
+        margin-left: 0px;
+    }
+    .margin-custom{
+        margin-left: 0px;
+    }
+    .first-image{
+        margin-left: 0px !important;
+        width: 50%;
+
+    }
+    .second-image{
+        margin-top: -0em!important;
+        margin-right: -4em;
+        width: 55%;
+        height: 40%;
+    }
+    .mt-8{
+        margin-top: 7em!important;
+    }
+    .third-image{
+        width: 60%;
+        margin-left: -1em;
+        margin-top: 0.3em!important;
+    }
+    .fourth-image{
+        width: 43%;
+        height: 45%;
+        margin-top: -2.5em!important;
+    }
+    .word-inside{
+        font-size: 1em;
+        padding-top: 0px!important;
+        margin-top: 2em!important;
+    }
+    .backgorund-test{
+        height: 100% !important;
+        background-size: 100% 100%;
+    }
+    .backgorund-test::before{
+        height: 100%;
+    }
+
+    .test-box{
+        margin-top: 0.5em;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+    .word-inside{
+        font-size: 1em;
+        margin-top: 0.8em;
+    }
+    .hvr-underline-from-left:hover{
+        border-bottom-color: #F98169!important;
+    }
+    .word-custom{
+        font-size: 0.8em;
+    }
+    .custom-margin{
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+    .btn-extra-custom{
+        width: 60% !important;
+    }
+    .item-coursal{
+        width: 100%!important;
+        height: 100%!important;
+    }
+    .custom-photo{
+        background-size: 29% 30%;
+    }
+    .custom-photo::before{
+        width: 29%;
+        height: 30%;
+    }
+    .popular{
+        font-size: 1.2em !important;
+    }
+    .owl-theme{
+        margin-top: 1.5em!important;
+    }
+    .latest{
+        font-size: 1.2em!important;
+        margin-top: 3em!important;
+        padding-top: 0em!important;
+    }
+    .descripiton-content{
+        font-size: 1.5em;
+    }
+    .custom-word-photo{
+        font-size: 1.5em;
+    }
+    .button-extra-contentex{
+        margin-top: 2.8em!important;
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mobile-edition{
+        margin-left: 0.2em;
+    }
+    .nav-items{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0A4065;
+        margin-top: 0px;
+        margin: 0px;
+        z-index: 500;
+        display: flex!important;
+        flex-direction: column!important;
+        opacity: 0.8;
+    }
+    .nav-item{
+        margin: 0px;
+        text-align: center;
+        margin-top: 0.3em;
+
+        font-weight: 600;
+        font-size: 1.1em;
+
+    }
+    .active{
+        color: #ffffff;
+    }
+    .close-window{
+        font-size: 2em;
+        color: white;
+        display: inline;
+        margin-left: 0.1em;
+        margin-top: 0.1em;
+    }
+    .mobile-margin{
+        margin-top:20%;
+    }
+
+
+    .nav-mobile{
+        display: none!important;
+    }
+    .align-margin{
+        margin-top: 2em;
+        font-size: 1.5em;
+        color: #0A4065;
+        display: inline;
+    }
+    .background-home{
+        background-size: 100% 100%;
+    }
+    footer{
+        background-position: 	230% 120%;
+        background-size: 80% 80%;
+    }
+
+}
